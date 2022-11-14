@@ -1,0 +1,86 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 0 0 0;
+}
+
+header img {
+    height: 6em;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+main {
+    margin: 10px 0 40px 0;
+    height: 80%;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 210px;
+    width: 250px;
+    padding: 8px;
+    margin: 10px 0 10px 0;
+}
+
+footer {
+    background-color: #015901;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0;
+}
+
+#main-view {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-image: url(https://media.architecturaldigest.com/photos/567ad9c0b313ecbd18113fde/master/w_800%2Cc_limit/home-gardens-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    height: fit-content;
+}
+
+#main-view>h2 {
+    margin: 0 10px;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+    font-family: serif;
+    color: white;
+}
+
+#footer-logo {
+    height: 8em;
+    width: auto;
+}
+
+#cop-text {
+    color: white;
+}
